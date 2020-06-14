@@ -1,0 +1,59 @@
+.hide{
+
+    display: none;
+}
+
+body{
+    background: #fff;
+}
+nav{
+    margin-bottom: 15px;
+}
+.card{
+    margin-bottom: 10px;
+
+}
+.card-img{
+    height: 100px;
+    width: 100px;
+
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.card-img,.card-author, .card-date, .card-descr,.task-name, .user-name{
+    margin-bottom: 10px;
+    padding: 30px;
+}
+.card-img__max{
+    height: 500px;
+}
+.card-btn{
+    display: flex;
+}
+.card-btn a{
+    margin-right: 10px;
+}
+.card-body{
+    display: flex;
+    justify-content: space-between;
+
+}
+.button-form{
+
+    margin-bottom: 20px;
+}
+.card-btn {
+    margin: 20px;
+}
+.button-create{
+    padding: 20px;
+}
+.btn-users{
+    padding: 20px;
+}
+li {
+    list-style-type: none; /* Убираем маркеры */
+}
+.input{
+    width: 70%;
+}
